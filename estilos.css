@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Danfo&family=Jaro:opsz@6..72&display=swap');
+
+header {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: rgb(207, 189, 224);
+width: 100%;
+margin: 10px;
+}
+
+header ul{
+list-style: none;
+display: flex;
+flex-direction: row;
+}
+
+header ul li {
+margin: 30px;   
+}
+
+header img{
+    width: 150px;
+    height: 100px;
+}
+
+a{
+    font-family: "Changa", sans-serif;
+    text-decoration: none;
+}
+
+img{
+    width: 150px;
+    height: 180px;
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Jaro", sans-serif;
+    font-size: 40px;
+    margin: 20px 10px 20px 10px;
+    background-color: rgb(236, 219, 238);
+    color: rgb(149, 60, 167);
+}
+.presentacion p{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    font-family: "Changa", sans-serif;
+    width: 70%;
+}
+
+h2{
+    font-size: 30px;
+    color:rgb(50, 16, 59)
+}
+
+p{
+    font-size: 20px;
+    color: rgb(12, 8, 15);
+}
+
+.cuerpo{
+display: flex;
+flex-direction: row;
+font-family: "Changa", sans-serif;
+margin: 20px 10 20px 10;
+padding: 10px;
+width: 100%;
+background-color: rgb(180, 134, 224);
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img{
+    border-radius: 50%;
+}
+
+.videos{
+    display: flex;
+justify-content: space-between;
+margin: 60px;
+}
